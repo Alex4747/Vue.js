@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+
+<div class="button">
+    <a href="#">Add user</a>
+</div>
+
+    <form name="test" method="post" action="input1.php">
+        <h2>Enter data</h2>
+            <input type="text" placeholder="Name" required><br>
+            <input type="text" placeholder="Surname" required><br>
+            <input type="tel" placeholder="Phone" maxlength="13" required><br>
+            <input type="email" placeholder="Email" required><br>
+            <div class="buttons">
+                <input type="submit" value="Edit">
+                <input type="submit" value="Delete">
+            </div>
+    </form>
+
+    <div class="left">
+        <div class="circle"></div>
+        <div class="top-left"></div>
+        <div class="middle-left"></div>
+        <div class="bottom-left"></div>
+    </div>
+
+    <div class="right">
+        <div class="top"></div>
+        <div class="middle"></div>
+        <div class="bottom"></div>
+    </div>
+
+
+
+<!--<div id="app">
+    <button v-on:click="addNumber">Button</button>
+    <h2 v-show="tro">Hello World</h2>
+    <ul>
+        <li v-for="number in numbers">{{number}}</li>
+    </ul>
+</div>-->
+
+
+
+<script src="vue.js"></script>
+</body>
+</html>
+
